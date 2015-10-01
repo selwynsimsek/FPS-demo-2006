@@ -1,0 +1,166 @@
+forceES2    false
+forceES3    false
+forceGL3    false
+forceGL4ES3 false
+-----------------------------------------------------------------------------------------------------
+Platform: WINDOWS / Windows 7 6.1 (6.1.0), amd64 (X86_64, GENERIC_ABI), 4 cores, littleEndian true
+MachineDataInfo: runtimeValidated true, 32Bit false, primitive size / alignment:
+  int8    1 / 1, int16   2 / 2
+  int     4 / 4, long    4 / 4
+  int32   4 / 4, int64   8 / 8
+  float   4 / 4, double  8 / 8, ldouble 16 / 16
+  pointer 8 / 8, page    4096
+Platform: Java Version: 1.8.0_31 (1.8.0u31), VM: Java HotSpot(TM) 64-Bit Server VM, Runtime: Java(TM) SE Runtime Environment
+Platform: Java Vendor: Oracle Corporation, http://java.oracle.com/, JavaSE: true, Java6: true, AWT enabled: true
+-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+Package: com.jogamp.common
+Extension Name: com.jogamp.common
+Specification Title: GlueGen Java Bindings Generator
+Specification Vendor: JogAmp Community
+Specification Version: 2.3
+Implementation Title: GlueGen Run-Time
+Implementation Vendor: JogAmp Community
+Implementation Vendor ID: com.jogamp
+Implementation URL: http://jogamp.org/
+Implementation Version: 2.3.1
+Implementation Build: 2.3-b857-20150327
+Implementation Branch: origin/master
+Implementation Commit: f1eba171ddd887a2daa3dfa2ac90ac864c5b22d4
+-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+Package: com.jogamp.opengl
+Extension Name: com.jogamp.opengl
+Specification Title: Java Bindings for OpenGL API Specification
+Specification Vendor: JogAmp Community
+Specification Version: 2.3
+Implementation Title: Java Bindings for OpenGL Runtime Environment
+Implementation Vendor: JogAmp Community
+Implementation Vendor ID: com.jogamp
+Implementation URL: http://jogamp.org/
+Implementation Version: 2.3.1
+Implementation Build: 2.3-b1391-20150327
+Implementation Branch: origin/master
+Implementation Commit: b142c7130c05c9c0ae97841b4ff626f528c45438
+-----------------------------------------------------------------------------------------------------
+GLProfiles on device WindowsGraphicsDevice[type .windows, connection decon, unitID 0, handle 0x0, owner false, NullToolkitLock[obj 0x29ab09b3]]
+	Natives
+		GL4bc 	false
+		GL4 	false
+		GLES3 	false
+		GL3bc 	true [3.1 (Compat profile, arb, compat[], FBO, hardware)]
+		GL3 	true [3.1 (Core profile, arb, compat[], FBO, hardware)]
+		GL2 	true [3.1 (Compat profile, arb, compat[], FBO, hardware)]
+		GLES2 	false
+		GLES1 	false
+		Count	3 / 8
+	Common
+		GL4ES3 	false
+		GL2GL3 	true
+		GL2ES2 	true
+		GL2ES1 	true
+	Mappings
+		GL3bc 	GLProfile[GL3bc/GL3bc.hw]
+		GL2ES1 	GLProfile[GL2ES1/GL3bc.hw]
+		GL2ES2 	GLProfile[GL2ES2/GL3.hw]
+		GL2 	GLProfile[GL2/GL3bc.hw]
+		GL3 	GLProfile[GL3/GL3.hw]
+		GL2GL3 	GLProfile[GL2GL3/GL3bc.hw]
+		default GLProfile[GL3bc/GL3bc.hw]
+		Count	6 / 12
+
+
+Desktop Capabilities: 
+	GLCaps[wgl vid 1 arb: rgba 8/8/8/8, opaque, accum-rgba 0/0/0/0, dp/st/ms 0/0/0, one, mono  , hw, GLProfile[GL3bc/GL3bc.hw], on-scr[fbo, pbuffer]]
+	GLCaps[wgl vid 2 arb: rgba 8/8/8/8, opaque, accum-rgba 16/16/16/16, dp/st/ms 0/0/0, dbl, mono  , hw, GLProfile[GL3bc/GL3bc.hw], on-scr[fbo, pbuffer]]
+	GLCaps[wgl vid 3 arb: rgba 8/8/8/8, opaque, accum-rgba 0/0/0/0, dp/st/ms 24/8/0, one, mono  , hw, GLProfile[GL3bc/GL3bc.hw], on-scr[fbo, pbuffer]]
+	GLCaps[wgl vid 4 arb: rgba 8/8/8/8, opaque, accum-rgba 16/16/16/16, dp/st/ms 24/8/0, dbl, mono  , hw, GLProfile[GL3bc/GL3bc.hw], on-scr[fbo, pbuffer]]
+	GLCaps[wgl vid 5 arb: rgba 8/8/8/8, opaque, accum-rgba 0/0/0/0, dp/st/ms 16/0/0, one, mono  , hw, GLProfile[GL3bc/GL3bc.hw], on-scr[fbo, pbuffer]]
+	GLCaps[wgl vid 6 arb: rgba 8/8/8/8, opaque, accum-rgba 16/16/16/16, dp/st/ms 16/0/0, dbl, mono  , hw, GLProfile[GL3bc/GL3bc.hw], on-scr[fbo, pbuffer]]
+	GLCaps[wgl vid 7 arb: rgba 8/8/8/8, opaque, accum-rgba 16/16/16/16, dp/st/ms 0/0/0, dbl, mono  , hw, GLProfile[GL3bc/GL3bc.hw], on-scr[fbo, pbuffer]]
+	GLCaps[wgl vid 8 arb: rgba 8/8/8/8, opaque, accum-rgba 16/16/16/16, dp/st/ms 16/0/0, dbl, mono  , hw, GLProfile[GL3bc/GL3bc.hw], on-scr[fbo, pbuffer]]
+	GLCaps[wgl vid 9 arb: rgba 8/8/8/8, opaque, accum-rgba 16/16/16/16, dp/st/ms 24/8/0, dbl, mono  , hw, GLProfile[GL3bc/GL3bc.hw], on-scr[fbo, pbuffer]]
+	GLCaps[wgl vid 10 arb: rgba 8/8/8/8, opaque, accum-rgba 0/0/0/0, dp/st/ms 0/0/4, sample-ext default, one, mono  , hw, GLProfile[GL3bc/GL3bc.hw], on-scr[fbo, pbuffer]]
+	GLCaps[wgl vid 11 arb: rgba 8/8/8/8, opaque, accum-rgba 16/16/16/16, dp/st/ms 0/0/4, sample-ext default, dbl, mono  , hw, GLProfile[GL3bc/GL3bc.hw], on-scr[fbo, pbuffer]]
+	GLCaps[wgl vid 12 arb: rgba 8/8/8/8, opaque, accum-rgba 0/0/0/0, dp/st/ms 16/0/4, sample-ext default, one, mono  , hw, GLProfile[GL3bc/GL3bc.hw], on-scr[fbo, pbuffer]]
+	GLCaps[wgl vid 13 arb: rgba 8/8/8/8, opaque, accum-rgba 16/16/16/16, dp/st/ms 16/0/4, sample-ext default, dbl, mono  , hw, GLProfile[GL3bc/GL3bc.hw], on-scr[fbo, pbuffer]]
+	GLCaps[wgl vid 14 arb: rgba 8/8/8/8, opaque, accum-rgba 0/0/0/0, dp/st/ms 24/8/4, sample-ext default, one, mono  , hw, GLProfile[GL3bc/GL3bc.hw], on-scr[fbo, pbuffer]]
+	GLCaps[wgl vid 15 arb: rgba 8/8/8/8, opaque, accum-rgba 16/16/16/16, dp/st/ms 24/8/4, sample-ext default, dbl, mono  , hw, GLProfile[GL3bc/GL3bc.hw], on-scr[fbo, pbuffer]]
+	GLCaps[wgl vid 16 arb: rgba 8/8/8/0, opaque, accum-rgba 16/16/16/0, dp/st/ms 32/8/0, one, mono  , sw, GLProfile[GL3bc/GL3bc.hw], on-scr[fbo]]
+	GLCaps[wgl vid 17 arb: rgba 8/8/8/0, opaque, accum-rgba 16/16/16/0, dp/st/ms 16/8/0, one, mono  , sw, GLProfile[GL3bc/GL3bc.hw], on-scr[fbo]]
+	GLCaps[wgl vid 18 arb: rgba 8/8/8/0, opaque, accum-rgba 16/16/16/0, dp/st/ms 32/8/0, dbl, mono  , sw, GLProfile[GL3bc/GL3bc.hw], on-scr[fbo]]
+	GLCaps[wgl vid 19 arb: rgba 8/8/8/0, opaque, accum-rgba 16/16/16/0, dp/st/ms 16/8/0, dbl, mono  , sw, GLProfile[GL3bc/GL3bc.hw], on-scr[fbo]]
+	GLCaps[wgl vid 20 arb: rgba 8/8/8/8, opaque, accum-rgba 16/16/16/16, dp/st/ms 32/8/0, one, mono  , sw, GLProfile[GL3bc/GL3bc.hw], on-scr[fbo]]
+	GLCaps[wgl vid 21 arb: rgba 8/8/8/8, opaque, accum-rgba 16/16/16/16, dp/st/ms 16/8/0, one, mono  , sw, GLProfile[GL3bc/GL3bc.hw], on-scr[fbo]]
+	GLCaps[wgl vid 22 arb: rgba 8/8/8/8, opaque, accum-rgba 16/16/16/16, dp/st/ms 32/8/0, dbl, mono  , sw, GLProfile[GL3bc/GL3bc.hw], on-scr[fbo]]
+	GLCaps[wgl vid 23 arb: rgba 8/8/8/8, opaque, accum-rgba 16/16/16/16, dp/st/ms 16/8/0, dbl, mono  , sw, GLProfile[GL3bc/GL3bc.hw], on-scr[fbo]]
+	GLCaps[wgl vid 24 arb: rgba 8/8/8/0, opaque, accum-rgba 0/0/0/0, dp/st/ms 32/8/0, one, mono  , sw, GLProfile[GL3bc/GL3bc.hw], on-scr[fbo]]
+	GLCaps[wgl vid 25 arb: rgba 8/8/8/0, opaque, accum-rgba 0/0/0/0, dp/st/ms 16/8/0, one, mono  , sw, GLProfile[GL3bc/GL3bc.hw], on-scr[fbo]]
+	GLCaps[wgl vid 26 arb: rgba 8/8/8/0, opaque, accum-rgba 0/0/0/0, dp/st/ms 32/8/0, dbl, mono  , sw, GLProfile[GL3bc/GL3bc.hw], on-scr[fbo]]
+	GLCaps[wgl vid 27 arb: rgba 8/8/8/0, opaque, accum-rgba 0/0/0/0, dp/st/ms 16/8/0, dbl, mono  , sw, GLProfile[GL3bc/GL3bc.hw], on-scr[fbo]]
+	GLCaps[wgl vid 28 gdi: rgba 8/8/8/0, opaque, accum-rgba 16/16/16/0, dp/st/ms 32/8/0, one, mono  , sw, GLProfile[GL3bc/GL3bc.hw], offscr[bitmap]]
+	GLCaps[wgl vid 29 gdi: rgba 8/8/8/0, opaque, accum-rgba 16/16/16/0, dp/st/ms 16/8/0, one, mono  , sw, GLProfile[GL3bc/GL3bc.hw], offscr[bitmap]]
+	GLCaps[wgl vid 32 gdi: rgba 8/8/8/0, opaque, accum-rgba 0/0/0/0, dp/st/ms 32/8/0, one, mono  , sw, GLProfile[GL3bc/GL3bc.hw], offscr[bitmap]]
+	GLCaps[wgl vid 33 gdi: rgba 8/8/8/0, opaque, accum-rgba 0/0/0/0, dp/st/ms 16/8/0, one, mono  , sw, GLProfile[GL3bc/GL3bc.hw], offscr[bitmap]]
+	GLCaps[wgl vid 52 arb: rgba 8/8/8/0, opaque, accum-rgba 0/0/0/0, dp/st/ms 0/0/0, one, mono  , hw, GLProfile[GL3bc/GL3bc.hw], offscr[pbuffer]]
+	GLCaps[wgl vid 53 arb: rgba 8/8/8/0, opaque, accum-rgba 0/0/0/0, dp/st/ms 16/0/0, one, mono  , hw, GLProfile[GL3bc/GL3bc.hw], offscr[pbuffer]]
+	GLCaps[wgl vid 54 arb: rgba 8/8/8/0, opaque, accum-rgba 0/0/0/0, dp/st/ms 24/8/0, one, mono  , hw, GLProfile[GL3bc/GL3bc.hw], offscr[pbuffer]]
+	GLCaps[wgl vid 55 arb: rgba 8/8/8/0, opaque, accum-rgba 0/0/0/0, dp/st/ms 0/0/0, one, mono  , hw, GLProfile[GL3bc/GL3bc.hw], offscr[pbuffer]]
+	GLCaps[wgl vid 56 arb: rgba 8/8/8/0, opaque, accum-rgba 0/0/0/0, dp/st/ms 16/0/0, one, mono  , hw, GLProfile[GL3bc/GL3bc.hw], offscr[pbuffer]]
+	GLCaps[wgl vid 57 arb: rgba 8/8/8/0, opaque, accum-rgba 0/0/0/0, dp/st/ms 24/8/0, one, mono  , hw, GLProfile[GL3bc/GL3bc.hw], offscr[pbuffer]]
+	GLCaps[wgl vid 58 arb: rgba 11/11/10/0, opaque, accum-rgba 0/0/0/0, dp/st/ms 0/0/0, one, mono  , hw, GLProfile[GL3bc/GL3bc.hw], offscr[pbuffer]]
+	GLCaps[wgl vid 59 arb: rgba 11/11/10/0, opaque, accum-rgba 0/0/0/0, dp/st/ms 16/0/0, one, mono  , hw, GLProfile[GL3bc/GL3bc.hw], offscr[pbuffer]]
+	GLCaps[wgl vid 60 arb: rgba 11/11/10/0, opaque, accum-rgba 0/0/0/0, dp/st/ms 24/8/0, one, mono  , hw, GLProfile[GL3bc/GL3bc.hw], offscr[pbuffer]]
+
+EGL Capabilities: 
+	none
+
+
+Requesting: GLCaps[rgba 8/8/8/0, opaque, accum-rgba 0/0/0/0, dp/st/ms 16/0/0, dbl, mono  , hw, GLProfile[GL3bc/GL3bc.hw], on-scr[.]]
+Main Monitor: Monitor[Id 0x0 [primary], 344 x 194 mm, pixelScale [1.0, 1.0], viewport [ 0 / 0  1366 x 768 ] [pixels], [ 0 / 0  1366 x 768 ] [window], orig [Id 0x0, [ 1366 x 768 pixels x 32 bpp ] @ 60.0 Hz, flags [], 0 degr], curr [Id 0x0, [ 1366 x 768 pixels x 32 bpp ] @ 60.0 Hz, flags [], 0 degr], modeChanged false, modeCount 104]
+    pixel/mm [3.9709303, 3.958763]
+    pixel/in [100.861626, 100.552574]
+-----------------------------------------------------------------------------------------------------
+WindowsGraphicsDevice[type .windows, connection decon]: 
+	Natives
+		GL4bc 	false
+		GL4 	false
+		GLES3 	false
+		GL3bc 	true [3.1 (Compat profile, arb, compat[], FBO, hardware)]
+		GL3 	true [3.1 (Core profile, arb, compat[], FBO, hardware)]
+		GL2 	true [3.1 (Compat profile, arb, compat[], FBO, hardware)]
+		GLES2 	false
+		GLES1 	false
+		Count	3 / 8
+	Common
+		GL4ES3 	false
+		GL2GL3 	true
+		GL2ES2 	true
+		GL2ES1 	true
+	Mappings
+		GL3bc 	GLProfile[GL3bc/GL3bc.hw]
+		GL2ES1 	GLProfile[GL2ES1/GL3bc.hw]
+		GL2ES2 	GLProfile[GL2ES2/GL3.hw]
+		GL2 	GLProfile[GL2/GL3bc.hw]
+		GL3 	GLProfile[GL3/GL3.hw]
+		GL2GL3 	GLProfile[GL2GL3/GL3bc.hw]
+		default GLProfile[GL3bc/GL3bc.hw]
+		Count	6 / 12
+
+Swap Interval  -1
+GL Profile     GLProfile[GL3bc/GL3bc.hw]
+GL Version     3.1 (Compat profile, arb, compat[], FBO, hardware) - 3.1.0 - Build 8.15.10.2712 [GL 3.1.0, vendor 8.15.10 (- Build 8.15.10.2712)]
+Quirks         [NoDoubleBufferedBitmap, NoSurfacelessCtx]
+Impl. class    jogamp.opengl.gl4.GL4bcImpl
+GL_VENDOR      Intel
+GL_RENDERER    Intel(R) HD Graphics 3000
+GL_VERSION     3.1.0 - Build 8.15.10.2712
+GLSL           true, has-compiler-func: true, version: 1.40 - Intel Build 8.15.10.2712 / 1.40.0
+GL FBO: basic true, full true
+GL_EXTENSIONS  128
+GLX_EXTENSIONS 0
+-----------------------------------------------------------------------------------------------------
+Requested: GLCaps[rgba 8/8/8/0, opaque, accum-rgba 0/0/0/0, dp/st/ms 16/0/0, dbl, mono  , hw, GLProfile[GL3bc/GL3bc.hw], on-scr[.]]
+Chosen   : GLCaps[wgl vid 6 arb: rgba 8/8/8/8, opaque, accum-rgba 16/16/16/16, dp/st/ms 16/0/0, dbl, mono  , hw, GLProfile[GL3bc/GL3bc.hw], on-scr[.]]
+GL impl. class jogamp.opengl.gl4.GL4bcImpl
+GL3 retrieved, impl. class jogamp.opengl.gl4.GL4bcImpl

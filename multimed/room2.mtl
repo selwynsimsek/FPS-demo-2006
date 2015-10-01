@@ -1,0 +1,16 @@
+# room2.mtl
+
+newmtl wall1mtl
+map_Kd wall1.png
+newmtl wall2mtl
+map_Kd wall2.png
+newmtl wall3mtl
+map_Kd wall3.png
+newmtl wall4mtl
+map_Kd wall4.png
+newmtl wall5mtl
+map_Kd wall5.png
+newmtl floormtl
+map_Kd floor.png
+newmtl ceilingmtl
+map_Kd ceiling.png

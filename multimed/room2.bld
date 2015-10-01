@@ -1,0 +1,195 @@
+# room2bld
+
+corner 50 00
+corner 80 00
+corner 80 10
+corner 150 10
+corner 150 20
+corner 170 20
+corner 170 30
+corner 190 30
+corner 190 40
+corner 210 40
+corner 210 50
+corner 230 50
+corner 230 90
+corner 190 90
+corner 190 70
+corner 200 70
+corner 200 80
+corner 220 80
+corner 220 70
+corner 210 70
+corner 210 60
+corner 190 60
+corner 190 50
+corner 170 50
+corner 170 40
+corner 150 40
+corner 150 30
+corner 80 30
+corner 80 40
+corner 70 40
+corner 70 70
+corner 30 70
+corner 30 80
+corner 20 80
+corner 20 130
+corner 30 130
+corner 30 90
+corner 70 90
+corner 70 80
+corner 80 80
+corner 80 50
+corner 150 50
+corner 150 70
+corner 180 70
+corner 180 100
+corner 230 100
+corner 230 110
+corner 240 110
+corner 240 120
+corner 160 120
+corner 160 90
+corner 150 90
+corner 150 120
+corner 120 120
+corner 120 150
+corner 170 150
+corner 170 140
+corner 180 140
+corner 180 160
+corner 170 160
+corner 170 170
+corner 140 170
+corner 140 200
+corner 100 200
+corner 100 180
+corner 130 180
+corner 130 170
+corner 100 170
+corner 100 120
+corner 70 120
+corner 70 160
+corner 30 160
+corner 30 150
+corner 00 150
+corner 00 60
+corner 60 60
+corner 60 40
+corner 50 40
+
+mtllib room2.mtl
+
+bounds -01 -01 242 202
+usemtl floormtl
+floortex
+usemtl ceilingmtl
+ceilingtex
+ceiling 6.0
+
+usemtl wall1mtl
+wall 1 2
+wall 2 3
+usemtl wall2mtl
+wall 3 4
+wall 4 5
+wall 5 6
+wall 6 7
+wall 7 8
+wall 8 9
+wall 9 10
+wall 10 11
+usemtl wall3mtl
+wall 11 12
+wall 12 13
+wall 13 14
+wall 14 15
+wall 15 16
+wall 16 17
+wall 17 18
+wall 18 19
+wall 19 20
+wall 20 21
+usemtl wall2mtl
+wall 21 22
+wall 22 23
+wall 23 24
+wall 24 25
+wall 25 26
+wall 26 27
+wall 27 28
+usemtl wall1mtl
+wall 28 29
+wall 29 30
+usemtl wall2mtl
+wall 30 31
+wall 31 32
+wall 32 33
+wall 33 34
+wall 34 35
+wall 35 36
+usemtl wall1mtl
+wall 36 37
+wall 37 38
+wall 38 39
+wall 39 40
+wall 40 41
+wall 41 42
+wall 42 43
+usemtl wall5mtl
+wall 43 44
+wall 44 45
+wall 45 46
+wall 46 47
+wall 47 48
+wall 48 49
+wall 49 50
+wall 50 51
+wall 51 52
+usemtl wall1mtl
+wall 52 53
+wall 53 54
+usemtl wall5mtl
+wall 54 55
+wall 55 56
+usemtl wall4mtl
+wall 56 57
+wall 57 58
+wall 58 59
+wall 59 60
+usemtl wall5mtl
+wall 60 61
+wall 61 62
+usemtl wall3mtl
+wall 62 63
+wall 63 64
+wall 64 65
+wall 65 66
+wall 66 67
+usemtl wall5mtl
+wall 67 68
+wall 68 69
+usemtl wall1mtl
+wall 69 70
+wall 70 71
+wall 71 72
+wall 72 73
+usemtl wall2mtl
+wall 73 74
+wall 74 75
+wall 75 76
+wall 76 77
+usemtl wall1mtl
+wall 77 78
+wall 78 1
+dexobj radwaste radwaste.obj green yellow blue pink
+corner 110 190
+corner 120 190
+corner 130 190
+exobj -1 radwaste
+exobj -2 radwaste
+exobj -3 radwaste
+
+corner 110 90
+player -1

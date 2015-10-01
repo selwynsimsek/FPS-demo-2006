@@ -1,0 +1,4 @@
+newmtl uvmap
+map_Kd uvmap.png
+
+

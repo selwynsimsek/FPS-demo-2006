@@ -1,0 +1,1 @@
+java -classpath code.jar;leafpine.jar;multimed.jar MapExplorer

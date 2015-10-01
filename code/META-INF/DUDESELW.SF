@@ -1,0 +1,29 @@
+Signature-Version: 1.0
+Created-By: 1.5.0_08 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest-Main-Attributes: KtNuq6Ykyj2RYO+5e0szzIgPy3s=
+SHA1-Digest-Manifest: Ega2hzJ6d9LpBNhapflKsMCYLJg=
+
+Name: Grenade.class
+SHA1-Digest: 1fBC9VBjeAXsn3t1JULjy5m5KIQ=
+
+Name: CollisionDetection.class
+SHA1-Digest: zbVefKkGzVzmnXSgeJQWQPEAHvk=
+
+Name: MapExplorer$2.class
+SHA1-Digest: fkWgojBjLiytQUhamjPF5asIP8g=
+
+Name: MapExplorer.class
+SHA1-Digest: iFuoqwneIxW2iJrqqObO+KBvGaQ=
+
+Name: ScreenManager.class
+SHA1-Digest: qrhAzH4J4NtVtR21tGZkzhvOZ8o=
+
+Name: MapExplorer$3.class
+SHA1-Digest: 5Y2vcTEjf8+xP9x/bQBkychVop4=
+
+Name: MapExplorer$1.class
+SHA1-Digest: +PQv+FSJZJQDHh+kuGkUAUQ8N0E=
+
+Name: PathFinder.class
+SHA1-Digest: 5ngjNssV87cgwSAAnzs1r63hDEc=
+
